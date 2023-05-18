@@ -18,7 +18,6 @@ export const ContactList = ({ contacts, deleteContact }) => (
   </ul>
 );
 
-
 ContactList.propTypes = {
   contacts:PropTypes.arrayOf(
     PropTypes.exact({
